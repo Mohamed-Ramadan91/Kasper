@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasper</title>
+    <!--================ AOS Library ================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- Swiper.js Lib -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"> <img src="images/logo.png" alt="Logo" /></a>
+        </div>
+        <nav>
+          <i class="fas fa-bars toogle-bar active"></i>
+          <ul class="menue">
+            <i class="fas fa-window-close toogle-close"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass toogle-search active"></i>
+              <form action="" target="_blank">
+                <input type="search" name="search" id="search" />
+                <input type="submit" value="Search" id="search-btn" />
+              </form>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Landing -->
+    <section class="landing">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/bg1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bg2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bg3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="landing-txt">
+        <div class="container">
+          <h1>Hello World!</h1>
+          <h2>We Are Kasper We Make Art.</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="special-title" data-aos="flip-left">
+        <div class="special-title-txt">
+          <h2>Services</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="special-title-draw"></div>
+      </div>
+      <div class="container">
+        <div class="cards">
+          <div class="card" data-aos="fade-right">
+            <div class="card-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/pxecqsgb.json"
+                trigger="hover"
+                colors="primary:#4bb3fd,secondary:#848484"
+                style="width: 60px; height: 60px"
+              >
+              </lord-icon>
+            </div>
+            <div class="card-txt">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left">
+            <div class="card-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/nnbhwnej.json"
+                trigger="hover"
+                style="width: 60px; height: 60px"
+              >
+              </lord-icon>
+            </div>
+            <div class="card-txt">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right">
+            <div class="card-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/bxxnzvfm.json"
+                trigger="hover"
+                style="width: 60px; height: 60px"
+              >
+              </lord-icon>
+            </div>
+            <div class="card-txt">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left">
+            <div class="card-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/qierxeeb.json"
+                trigger="hover"
+                colors="primary:#3a3347,secondary:#3080e8,tertiary:#ebe6ef,quaternary:#ffc738,quinary:#646e78"
+                style="width: 60px; height: 60px"
+              >
+              </lord-icon>
+            </div>
+            <div class="card-txt">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Design Features -->
+    <section class="design-features">
+      <div class="design-features-imgs" data-aos="fade-right">
+        <img src="images/iphone-black.png" alt="iphone" class="iphone-black" />
+        <img
+          src="images/iphone-white.png"
+          alt="iphone"
+          class="iphone-white"
+          data-aos="flip-right"
+        />
+      </div>
+      <div class="design-features-txt">
+        <h2 data-aos="fade-left">OUR DESIGNS COMES WITH...</h2>
+        <div class="txt" data-aos="fade-left">
+          <lord-icon
+            src="https://cdn.lordicon.com/pxecqsgb.json"
+            trigger="hover"
+            colors="primary:#4bb3fd,secondary:#848484"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+          <p>Responsive Design</p>
+        </div>
+        <div class="txt" data-aos="fade-left">
+          <lord-icon
+            src="https://cdn.lordicon.com/pxecqsgb.json"
+            trigger="hover"
+            colors="primary:#4bb3fd,secondary:#848484"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+          <p>Modern And Clean Design</p>
+        </div>
+        <div class="txt" data-aos="flip-left">
+          <lord-icon
+            src="https://cdn.lordicon.com/pxecqsgb.json"
+            trigger="hover"
+            colors="primary:#4bb3fd,secondary:#848484"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+          <p>Clean Code</p>
+        </div>
+        <div class="txt" data-aos="fade-left">
+          <lord-icon
+            src="https://cdn.lordicon.com/pxecqsgb.json"
+            trigger="hover"
+            colors="primary:#4bb3fd,secondary:#848484"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+          <p>Browser Friendly</p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="special-title" data-aos="flip-left">
+        <div class="special-title-txt">
+          <h2>Portfolio</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="special-title-draw"></div>
+      </div>
+      <div class="menue">
+        <ul>
+          <li class="all active">ALL</li>
+          <li class="app" data-categ="app">APP</li>
+          <li class="photo" data-categ="photo">PHOTOGRAPHY</li>
+          <li class="web" data-categ="web">WEB</li>
+          <li class="print" data-categ="print">PRINT</li>
+        </ul>
+      </div>
+      <div class="gallary">
+        <div class="img all active" data-categ="app">
+          <img src="images/portfolio-1.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="app">
+          <img src="images/portfolio-2.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="photo">
+          <img src="images/portfolio-3.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="photo">
+          <img src="images/portfolio-4.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="photo">
+          <img src="images/portfolio-5.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="print">
+          <img src="images/portfolio-6.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="print">
+          <img src="images/portfolio-7.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="print">
+          <img src="images/portfolio-8.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="print web">
+          <img src="images/portfolio-9.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="web">
+          <img src="images/portfolio-10.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ=" web">
+          <img src="images/portfolio-11.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="img all active" data-categ="web">
+          <img src="images/portfolio-12.jpg" alt="" />
+          <div class="txt">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <a href="#">See More</a>
+      </div>
+    </section>
+    <!-- Video Section -->
+    <section class="video-txt">
+      <div class="video">
+        <video autoplay muted loop>
+          <source src="images/Kasper - Template Two.mp4" />
+        </video>
+        <div class="txt">
+          <h3>SUPER AWESOME VIDEO HERE</h3>
+          <p>Its All You Need</p>
+          <a href="#">See More</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="about" id="about">
+      <div class="special-title" data-aos="flip-left">
+        <div class="special-title-txt">
+          <h2>ABOUT US</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="special-title-draw"></div>
+      </div>
+      <div class="container">
+        <div class="img">
+          <img src="images/about.png" alt="tablets" />
+        </div>
+      </div>
+      <div class="achivments">
+        <div class="container">
+          <div class="cards">
+            <div class="card">
+              <div class="icon"><i class="fas fa-mug-hot"></i></div>
+              <h2>1.236</h2>
+              <p>Coffee Drinks</p>
+            </div>
+            <div class="card">
+              <div class="icon"><i class="far fa-folder"></i></div>
+              <h2>256</h2>
+              <p>Completed Projects</p>
+            </div>
+            <div class="card">
+              <div class="icon"><i class="far fa-envelope"></i></div>
+              <h2>1,743</h2>
+              <p>Mail Sent</p>
+            </div>
+            <div class="card">
+              <div class="icon"><i class="fas fa-trophy"></i></div>
+              <h2>17</h2>
+              <p>Awards Received</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills & testimonials -->
+    <section class="skills-testimonials">
+      <div class="container">
+        <div class="testimonials">
+          <h3>TESTIMONIALS</h3>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cards">
+                  <div class="card">
+                    <img src="images/1.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="images/02.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cards">
+                  <div class="card">
+                    <img src="images/03.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="images/04.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cards">
+                  <div class="card">
+                    <img src="images/05.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="images/03.jpg" alt="card" />
+                    <div class="txt">
+                      <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                      </p>
+                      <p>John Doe, CEO</p>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="txt">
+            <h3>Skills</h3>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+          </div>
+          <div class="skills-bar">
+            <div class="bar">
+              <h3>Adobe</h3>
+              <div>
+                <span style="width: 0" data-width="90%"><div></div></span>
+              </div>
+            </div>
+            <div class="bar">
+              <h3>HTML & CSS</h3>
+              <div>
+                <span style="width: 0" data-width="70%"><div></div></span>
+              </div>
+            </div>
+            <div class="bar">
+              <h3>JAVASCRIPT</h3>
+              <div>
+                <span style="width: 0" data-width="80%"><div></div></span>
+              </div>
+            </div>
+            <div class="bar">
+              <h3>PHP</h3>
+              <div>
+                <span style="width: 0" data-width="65%"><div></div></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Qoute -->
+    <section class="qoute">
+      <div class="container">
+        <div class="txt">
+          <q
+            >accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+            elit, eget tincidunt.</q
+          >
+          <p>John Doe</p>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="special-title" data-aos="flip-left">
+        <div class="special-title-txt">
+          <h2>Pricing</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="special-title-draw"></div>
+      </div>
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <p>BASIC</p>
+            <h3>19</h3>
+            <p>Feature No 1</p>
+            <hr />
+            <p>Extra Feature</p>
+            <hr />
+            <p>Extra Feature No 2</p>
+            <hr />
+            <p>Feature</p>
+            <p class="buy-now">Buy Now</p>
+          </div>
+          <div class="card">
+            <p>PREMIUM</p>
+            <h3>29</h3>
+            <p>Feature No 1</p>
+            <hr />
+            <p>Extra Feature</p>
+            <hr />
+            <p>Extra Feature No 2</p>
+            <hr />
+            <p>Feature</p>
+            <p class="buy-now">Buy Now</p>
+          </div>
+          <div class="card">
+            <p>PRO</p>
+            <h3>39</h3>
+            <p>Feature No 1</p>
+            <hr />
+            <p>Extra Feature</p>
+            <hr />
+            <p>Extra Feature No 2</p>
+            <hr />
+            <p>Feature</p>
+            <p class="buy-now">Buy Now</p>
+          </div>
+          <div class="card">
+            <p>PLATINUM</p>
+            <h3>49</h3>
+            <p>Feature No 1</p>
+            <hr />
+            <p>Extra Feature</p>
+            <hr />
+            <p>Extra Feature No 2</p>
+            <hr />
+            <p>Feature</p>
+            <p class="buy-now">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact-us1 -->
+    <section class="contact-us1">
+      <div class="container">
+        <p>Contact us if you have special request</p>
+        <p>Contact Us</p>
+      </div>
+    </section>
+    <!-- Subscribe -->
+    <section class="subscribe">
+      <div class="container" data-aos="zoom-in">
+        <form action="" target="_blank">
+          <div class="subscribe-box">
+            <div class="icon">
+              <i class="far fa-envelope fa-lg"></i>
+            </div>
+            <div class="email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="submit-btn">
+              <input type="submit" value="Subscribe Now" />
+            </div>
+          </div>
+        </form>
+        <div class="subscribe-txt">
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blan dit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section class="contact-us" id="contact">
+      <div class="special-title" data-aos="flip-left">
+        <div class="special-title-txt">
+          <h2>Contact Us</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="special-title-draw"></div>
+      </div>
+      <div class="container">
+        <form action="" method="get" target="_blank">
+          <div class="contact-box" data-aos="fade-left">
+            <div class="your-name">
+              <input type="text" name="" id="" placeholder="Your Name" />
+            </div>
+            <div class="your-email">
+              <input type="email" name="" id="" placeholder="Your Email" />
+            </div>
+            <div class="your-message">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <div class="send">
+              <input type="submit" value="Send Message" />
+            </div>
+          </div>
+        </form>
+        <div class="txt" data-aos="fade-right">
+          <div>
+            <h3>GET IN TOUCH</h3>
+            <p>+00 123.456.789</p>
+            <p>+00 123.456.789</p>
+          </div>
+          <div>
+            <h3>WHERE WE ARE</h3>
+            <p>Awesome Address 17</p>
+            <p>New York, NYC</p>
+            <p>123-4567-890</p>
+            <p>USA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <p>WE ARE SOCIAL</p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fas fa-home"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>&copy; 2023 <span>Kasper</span> All Right Reserved</p>
+    </footer>
+    <div class="up-btn active">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!--================= A.O.S Script =================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--================= Lord Icons Script =================-->
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <!--================= Swiper JS Script =================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--================= Main Script =================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
