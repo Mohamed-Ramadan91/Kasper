@@ -33,6 +33,7 @@ var swiper1 = new Swiper(".mySwiper1", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 // Nav Bar
 
 // Get Elements
@@ -93,6 +94,7 @@ window.onscroll = function (event) {
 
 // Up scroll Button
 // Get Elements
+
 const upBtn = document.querySelector(".up-btn");
 
 window.addEventListener("scroll", up);
